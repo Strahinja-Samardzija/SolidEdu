@@ -1,0 +1,7 @@
+matematika1 - tanja, sofija, milan
+matematika2 - milica, ilija, mihajlo
+programiranje1 - mihajlo, danko, uros
+programiranje2 - marko, danko, uros, sofija
+fmsi - marko, ilija, uros, milan
+osi - tanja, danko
+fizika - marko, mihajlo, milan

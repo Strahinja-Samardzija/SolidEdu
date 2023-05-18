@@ -1,0 +1,617 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Windows">
+      <UniqueIdentifier>{c513ce71-5f7d-4f7d-a4d5-a465859abd0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Windows">
+      <UniqueIdentifier>{7f6e7324-f02b-4143-9e58-e7ffe378abe8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Users">
+      <UniqueIdentifier>{a5020d5d-9bd2-4b49-9f15-15a019af63e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Users">
+      <UniqueIdentifier>{1294caf0-f64e-41ce-89f0-17a10a50677c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\CourseAndPrerequisites">
+      <UniqueIdentifier>{2ffa5c60-0b3e-4934-ab86-b70e3aa93122}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CourseAndPrerequisites">
+      <UniqueIdentifier>{47cf0251-c2ce-456c-811a-2aaac354b269}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Messaging">
+      <UniqueIdentifier>{09e5854c-9b83-464e-82cb-4824c66b8530}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Messaging">
+      <UniqueIdentifier>{e6943c0d-f1cc-4709-b292-0f9d70e1180a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Factory">
+      <UniqueIdentifier>{625dadd9-31a0-412b-93c3-60f20a2e1fb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Factory">
+      <UniqueIdentifier>{78b1c955-9491-487a-802a-36940817f5d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Windows\MessagingWindows">
+      <UniqueIdentifier>{946a2a2f-f733-4d54-b04e-7148c00e7cec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Windows\MessagingWindows">
+      <UniqueIdentifier>{b8dbe6af-4419-4c82-bdf6-994729a688c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Windows\MeetNewPeopleWindows">
+      <UniqueIdentifier>{333cca0e-630a-40f2-9481-fad73d4b3918}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Windows\MeetNewPeopleWindows">
+      <UniqueIdentifier>{cee12de7-cfd6-4355-b719-e93c11359bbb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Windows\AdministratorWindows">
+      <UniqueIdentifier>{b179689b-0f60-449e-b49c-0d27a03ecf0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Windows\AdministratorWindows">
+      <UniqueIdentifier>{85311aad-966d-42a7-940a-a91df965477a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Windows\CourseRelatedWindows">
+      <UniqueIdentifier>{e05eaed0-d63f-4b61-948a-01502f1478b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Windows\CourseRelatedWindows">
+      <UniqueIdentifier>{e2df485a-e5be-4bb5-9e05-f17aae505cb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\System">
+      <UniqueIdentifier>{70078213-6fed-4b7e-8871-7ee8835a57e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\System">
+      <UniqueIdentifier>{118f953e-e03b-4f4b-8ca6-9b8fd51f7779}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\CourseFileManagers">
+      <UniqueIdentifier>{dffedccc-ecd6-41c7-9f1a-dd28cf5da1d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CourseFileManagers">
+      <UniqueIdentifier>{c97545a4-914b-416f-9da3-e3710957b671}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Connections">
+      <UniqueIdentifier>{c9d1b0a8-6aac-46c1-a7be-e029e7273b3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Connections">
+      <UniqueIdentifier>{be33e531-a20a-4baa-92c1-8a45b4adb3a7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SolidEdu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WelcomeWindow.cpp">
+      <Filter>Source Files\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="LoginWindow.cpp">
+      <Filter>Source Files\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="UserMenuWindow.cpp">
+      <Filter>Source Files\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="StudentDecorator.cpp">
+      <Filter>Source Files\Users</Filter>
+    </ClCompile>
+    <ClCompile Include="User.cpp">
+      <Filter>Source Files\Users</Filter>
+    </ClCompile>
+    <ClCompile Include="Course.cpp">
+      <Filter>Source Files\CourseAndPrerequisites</Filter>
+    </ClCompile>
+    <ClCompile Include="CompletedCourseNamePrerequisite.cpp">
+      <Filter>Source Files\CourseAndPrerequisites</Filter>
+    </ClCompile>
+    <ClCompile Include="PrerequisiteTypes.cpp">
+      <Filter>Source Files\CourseAndPrerequisites</Filter>
+    </ClCompile>
+    <ClCompile Include="Factory.cpp">
+      <Filter>Source Files\Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="Inbox.cpp">
+      <Filter>Source Files\Messaging</Filter>
+    </ClCompile>
+    <ClCompile Include="Notifier.cpp">
+      <Filter>Source Files\Messaging</Filter>
+    </ClCompile>
+    <ClCompile Include="Conversation.cpp">
+      <Filter>Source Files\Messaging</Filter>
+    </ClCompile>
+    <ClCompile Include="MessageReader.cpp">
+      <Filter>Source Files\Messaging</Filter>
+    </ClCompile>
+    <ClCompile Include="AnswerWindow.cpp">
+      <Filter>Source Files\Windows\MessagingWindows</Filter>
+    </ClCompile>
+    <ClCompile Include="ConversationWindow.cpp">
+      <Filter>Source Files\Windows\MessagingWindows</Filter>
+    </ClCompile>
+    <ClCompile Include="FriendsWindow.cpp">
+      <Filter>Source Files\Windows\MessagingWindows</Filter>
+    </ClCompile>
+    <ClCompile Include="InboxWindow.cpp">
+      <Filter>Source Files\Windows\MessagingWindows</Filter>
+    </ClCompile>
+    <ClCompile Include="MeetPeopleWindow.cpp">
+      <Filter>Source Files\Windows\MeetNewPeopleWindows</Filter>
+    </ClCompile>
+    <ClCompile Include="AcceptFriendRequestsWindow.cpp">
+      <Filter>Source Files\Windows\MeetNewPeopleWindows</Filter>
+    </ClCompile>
+    <ClCompile Include="AdministratorMenuWindow.cpp">
+      <Filter>Source Files\Windows\AdministratorWindows</Filter>
+    </ClCompile>
+    <ClCompile Include="CourseContentsWindow.cpp">
+      <Filter>Source Files\Windows\CourseRelatedWindows</Filter>
+    </ClCompile>
+    <ClCompile Include="TeacherGradeWindow.cpp">
+      <Filter>Source Files\Windows\CourseRelatedWindows</Filter>
+    </ClCompile>
+    <ClCompile Include="MyCoursesWindow.cpp">
+      <Filter>Source Files\Windows\CourseRelatedWindows</Filter>
+    </ClCompile>
+    <ClCompile Include="TeacherAddOrRemovePrerequisitesWindow.cpp">
+      <Filter>Source Files\Windows\CourseRelatedWindows</Filter>
+    </ClCompile>
+    <ClCompile Include="AllCoursesWindow.cpp">
+      <Filter>Source Files\Windows\CourseRelatedWindows</Filter>
+    </ClCompile>
+    <ClCompile Include="AcceptCourseApplicationRequestWindow.cpp">
+      <Filter>Source Files\Windows\CourseRelatedWindows</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemAppSingleton.cpp">
+      <Filter>Source Files\System</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemPathsSingleton.cpp">
+      <Filter>Source Files\System</Filter>
+    </ClCompile>
+    <ClCompile Include="StatsWindow.cpp">
+      <Filter>Source Files\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="CompletedCoursesFileManager.cpp">
+      <Filter>Source Files\CourseFileManagers</Filter>
+    </ClCompile>
+    <ClCompile Include="CourseFileManager.cpp">
+      <Filter>Source Files\CourseFileManagers</Filter>
+    </ClCompile>
+    <ClCompile Include="FeatureSelector.cpp">
+      <Filter>Source Files\Connections</Filter>
+    </ClCompile>
+    <ClCompile Include="ConnectionsGraphAdapterFromLibrary.cpp">
+      <Filter>Source Files\Connections</Filter>
+    </ClCompile>
+    <ClCompile Include="StudentFeatureAdapterToLibrary.cpp">
+      <Filter>Source Files\Connections</Filter>
+    </ClCompile>
+    <ClCompile Include="StudentFeatureExample.cpp">
+      <Filter>Source Files\Connections</Filter>
+    </ClCompile>
+    <ClCompile Include="Departments.cpp">
+      <Filter>Source Files\Windows\CourseRelatedWindows</Filter>
+    </ClCompile>
+    <ClCompile Include="CoursePrerequisiteModifier.cpp">
+      <Filter>Source Files\CourseAndPrerequisites</Filter>
+    </ClCompile>
+    <ClCompile Include="ConnectionsManager.cpp">
+      <Filter>Source Files\Connections</Filter>
+    </ClCompile>
+    <ClCompile Include="HardCodedExistingPrerequisiteTypes.cpp">
+      <Filter>Source Files\CourseAndPrerequisites</Filter>
+    </ClCompile>
+    <ClCompile Include="CourseStats.cpp">
+      <Filter>Source Files\CourseAndPrerequisites</Filter>
+    </ClCompile>
+    <ClCompile Include="FilterMessagesWindow.cpp">
+      <Filter>Source Files\Windows\MessagingWindows</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicReader.cpp">
+      <Filter>Source Files\Messaging</Filter>
+    </ClCompile>
+    <ClCompile Include="FilterMessageReader.cpp">
+      <Filter>Source Files\Messaging</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="WelcomeWindow.h">
+      <Filter>Header Files\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="IWindow.h">
+      <Filter>Header Files\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="LoginWindow.h">
+      <Filter>Header Files\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="ExitWindow.h">
+      <Filter>Header Files\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="UserMenuWindow.h">
+      <Filter>Header Files\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="IUser.h">
+      <Filter>Header Files\Users</Filter>
+    </ClInclude>
+    <ClInclude Include="User.h">
+      <Filter>Header Files\Users</Filter>
+    </ClInclude>
+    <ClInclude Include="Course.h">
+      <Filter>Header Files\CourseAndPrerequisites</Filter>
+    </ClInclude>
+    <ClInclude Include="Prerequisite.h">
+      <Filter>Header Files\CourseAndPrerequisites</Filter>
+    </ClInclude>
+    <ClInclude Include="CompletedCourseNamePrerequisite.h">
+      <Filter>Header Files\CourseAndPrerequisites</Filter>
+    </ClInclude>
+    <ClInclude Include="PrerequisiteTypes.h">
+      <Filter>Header Files\CourseAndPrerequisites</Filter>
+    </ClInclude>
+    <ClInclude Include="StudentDecorator.h">
+      <Filter>Header Files\Users</Filter>
+    </ClInclude>
+    <ClInclude Include="HardCodedExistingPrerequisiteTypes.h">
+      <Filter>Header Files\CourseAndPrerequisites</Filter>
+    </ClInclude>
+    <ClInclude Include="IInbox.h">
+      <Filter>Header Files\Messaging</Filter>
+    </ClInclude>
+    <ClInclude Include="IConversation.h">
+      <Filter>Header Files\Messaging</Filter>
+    </ClInclude>
+    <ClInclude Include="INotifier.h">
+      <Filter>Header Files\Messaging</Filter>
+    </ClInclude>
+    <ClInclude Include="IMessageReader.h">
+      <Filter>Header Files\Messaging</Filter>
+    </ClInclude>
+    <ClInclude Include="Factory.h">
+      <Filter>Header Files\Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="Inbox.h">
+      <Filter>Header Files\Messaging</Filter>
+    </ClInclude>
+    <ClInclude Include="Notifier.h">
+      <Filter>Header Files\Messaging</Filter>
+    </ClInclude>
+    <ClInclude Include="Conversation.h">
+      <Filter>Header Files\Messaging</Filter>
+    </ClInclude>
+    <ClInclude Include="MessageReader.h">
+      <Filter>Header Files\Messaging</Filter>
+    </ClInclude>
+    <ClInclude Include="AnswerWindow.h">
+      <Filter>Header Files\Windows\MessagingWindows</Filter>
+    </ClInclude>
+    <ClInclude Include="ConversationWindow.h">
+      <Filter>Header Files\Windows\MessagingWindows</Filter>
+    </ClInclude>
+    <ClInclude Include="FriendsWindow.h">
+      <Filter>Header Files\Windows\MessagingWindows</Filter>
+    </ClInclude>
+    <ClInclude Include="InboxWindow.h">
+      <Filter>Header Files\Windows\MessagingWindows</Filter>
+    </ClInclude>
+    <ClInclude Include="MeetPeopleWindow.h">
+      <Filter>Header Files\Windows\MeetNewPeopleWindows</Filter>
+    </ClInclude>
+    <ClInclude Include="AcceptFriendRequestsWindow.h">
+      <Filter>Header Files\Windows\MeetNewPeopleWindows</Filter>
+    </ClInclude>
+    <ClInclude Include="AdministratorMenuWindow.h">
+      <Filter>Header Files\Windows\AdministratorWindows</Filter>
+    </ClInclude>
+    <ClInclude Include="GenericAddOrRemove.h">
+      <Filter>Header Files\Windows\AdministratorWindows</Filter>
+    </ClInclude>
+    <ClInclude Include="AddOrRemove.h">
+      <Filter>Header Files\Windows\AdministratorWindows</Filter>
+    </ClInclude>
+    <ClInclude Include="UserAddOrRemove.h">
+      <Filter>Header Files\Windows\AdministratorWindows</Filter>
+    </ClInclude>
+    <ClInclude Include="UsersFriendsAddOrRemoveAdministratorWindow.h">
+      <Filter>Header Files\Windows\AdministratorWindows</Filter>
+    </ClInclude>
+    <ClInclude Include="DepartmentsCoursesAddOrRemoveAdministrator.h">
+      <Filter>Header Files\Windows\AdministratorWindows</Filter>
+    </ClInclude>
+    <ClInclude Include="DepartmentAddOrRemoveAdministrator.h">
+      <Filter>Header Files\Windows\AdministratorWindows</Filter>
+    </ClInclude>
+    <ClInclude Include="CoursesTeachersAddOrRemoveAdministrator.h">
+      <Filter>Header Files\Windows\AdministratorWindows</Filter>
+    </ClInclude>
+    <ClInclude Include="CoursesStudentsAddOrRemoveAdministrator.h">
+      <Filter>Header Files\Windows\AdministratorWindows</Filter>
+    </ClInclude>
+    <ClInclude Include="CoursesPrerequisitesAddOrRemoveAdministrator.h">
+      <Filter>Header Files\Windows\AdministratorWindows</Filter>
+    </ClInclude>
+    <ClInclude Include="CourseAddOrRemoveAdministrator.h">
+      <Filter>Header Files\Windows\AdministratorWindows</Filter>
+    </ClInclude>
+    <ClInclude Include="GradesAddOrRemoveAdministrator.h">
+      <Filter>Header Files\Windows\AdministratorWindows</Filter>
+    </ClInclude>
+    <ClInclude Include="CourseContentsWindow.h">
+      <Filter>Header Files\Windows\CourseRelatedWindows</Filter>
+    </ClInclude>
+    <ClInclude Include="TeacherGradeWindow.h">
+      <Filter>Header Files\Windows\CourseRelatedWindows</Filter>
+    </ClInclude>
+    <ClInclude Include="MyCoursesWindow.h">
+      <Filter>Header Files\Windows\CourseRelatedWindows</Filter>
+    </ClInclude>
+    <ClInclude Include="TeacherAddOrRemovePrerequisitesWindow.h">
+      <Filter>Header Files\Windows\CourseRelatedWindows</Filter>
+    </ClInclude>
+    <ClInclude Include="AllCoursesWindow.h">
+      <Filter>Header Files\Windows\CourseRelatedWindows</Filter>
+    </ClInclude>
+    <ClInclude Include="AcceptCourseApplicationRequestWindow.h">
+      <Filter>Header Files\Windows\CourseRelatedWindows</Filter>
+    </ClInclude>
+    <ClInclude Include="ISystemApp.h">
+      <Filter>Header Files\System</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemPathsBase.h">
+      <Filter>Header Files\System</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemAppSingleton.h">
+      <Filter>Header Files\System</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemPathsSingleton.h">
+      <Filter>Header Files\System</Filter>
+    </ClInclude>
+    <ClInclude Include="StatsWindow.h">
+      <Filter>Header Files\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="ICompletedCoursesFileManager.h">
+      <Filter>Header Files\CourseFileManagers</Filter>
+    </ClInclude>
+    <ClInclude Include="ICourseFileManager.h">
+      <Filter>Header Files\CourseFileManagers</Filter>
+    </ClInclude>
+    <ClInclude Include="CompletedCoursesFileManager.h">
+      <Filter>Header Files\CourseFileManagers</Filter>
+    </ClInclude>
+    <ClInclude Include="CourseFileManager.h">
+      <Filter>Header Files\CourseFileManagers</Filter>
+    </ClInclude>
+    <ClInclude Include="FeatureSelector.h">
+      <Filter>Header Files\Connections</Filter>
+    </ClInclude>
+    <ClInclude Include="IFeatureSelector.h">
+      <Filter>Header Files\Connections</Filter>
+    </ClInclude>
+    <ClInclude Include="ConnectionsGraphAdapterFromLibrary.h">
+      <Filter>Header Files\Connections</Filter>
+    </ClInclude>
+    <ClInclude Include="StudentFeatureAdapterToLibrary.h">
+      <Filter>Header Files\Connections</Filter>
+    </ClInclude>
+    <ClInclude Include="solid_edu_IConnectionsGraph.h">
+      <Filter>Header Files\Connections</Filter>
+    </ClInclude>
+    <ClInclude Include="solid_edu_IStudentFeature.h">
+      <Filter>Header Files\Connections</Filter>
+    </ClInclude>
+    <ClInclude Include="StudentFeatureExample.h">
+      <Filter>Header Files\Connections</Filter>
+    </ClInclude>
+    <ClInclude Include="Departments.h">
+      <Filter>Header Files\CourseAndPrerequisites</Filter>
+    </ClInclude>
+    <ClInclude Include="CoursePrerequisiteModifier.h">
+      <Filter>Header Files\CourseAndPrerequisites</Filter>
+    </ClInclude>
+    <ClInclude Include="IConnectionsManager.h">
+      <Filter>Header Files\Connections</Filter>
+    </ClInclude>
+    <ClInclude Include="ConnectionsManager.h">
+      <Filter>Header Files\Connections</Filter>
+    </ClInclude>
+    <ClInclude Include="CourseStats.h">
+      <Filter>Header Files\CourseAndPrerequisites</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicReader.h">
+      <Filter>Header Files\Messaging</Filter>
+    </ClInclude>
+    <ClInclude Include="FilterMessagesWindow.h">
+      <Filter>Header Files\Windows\MessagingWindows</Filter>
+    </ClInclude>
+    <ClInclude Include="FilterMessageReader.h">
+      <Filter>Header Files\Messaging</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="boris_classes.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="boris_notifications.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="boris_requests.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="connections.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="courses.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="courseStudents.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="courseTeachers.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="departments.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="drazen_classes.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="drazen_notifications.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="drazen_requests.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="elena_classes.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="elena_notifications.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="elena_requests.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="fizika_prerequisites.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="fizika_requests.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="fmsi2021_prerequisites.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="fmsi2021_requests.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="igor_classes.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="igor_notifications.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="igor_requests.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="ilija_classes.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="ilija_notifications.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="ilija_requests.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="jovana_classes.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="jovana_marko_.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="jovana_milica_.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="jovana_mirka_.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="jovana_notifications.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="jovana_requests.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="kremaZaSunce_classes.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="kremaZaSunce_marko_.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="kremaZaSunce_notifications.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="kremaZaSunce_requests.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="marko_classes.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="marko_notifications.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="marko_requests.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="marko_toma_.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="matematika1_prerequisites.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="matematika1_requests.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="mirka_classes.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="mirka_notifications.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="mirka_requests.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="osi_prerequisites.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="osi_requests.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="passedCourses.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="programiranje2_prerequisites.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="programiranje2_requests.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="slavica_classes.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="slavica_notifications.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="slavica_requests.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="slavko_classes.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="slavko_notifications.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="slavko_requests.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="sociologija_prerequisites.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="sociologija_requests.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="toma_classes.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="toma_notifications.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="toma_requests.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="user_password.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

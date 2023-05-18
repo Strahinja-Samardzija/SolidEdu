@@ -1,0 +1,10 @@
+sofija - uros, milan, tanja
+milan - danko, ilija, sofija
+jovana - marko, ilija, milica
+tanja - sofija, mihajlo
+mihajlo - tanja
+uros - sofija
+danko - milan
+milica - jovana
+marko - jovana, ilija
+ilija - marko, milan, jovana

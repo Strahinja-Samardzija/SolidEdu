@@ -1,0 +1,7 @@
+marko:matematika1_true_9;matematika2_true_10;osi_true_6;fizika_false_0;programiranje1_true_8;programiranje2_false_0
+mihajlo:matematika1_true_8;matematika2_false_0;programiranje1_false_0
+ilija:programiranje1_true_10;programiranje2_true_10;matematika1_true_9;fizika_true_10
+milica:matematika1_true_9;fizika_true_10
+tanja:fizika_false_0
+sofija:fizika_false_0
+milan:fizika_true_7

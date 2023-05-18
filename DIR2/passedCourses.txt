@@ -1,0 +1,9 @@
+mirka:matematika1_true_9;fizika_false_0;fmsi2021_true_10
+ilija:fizika_false_0
+slavica:matematika1_true_7
+marko:fizika_true_7
+drazen:osi_true_10;programiranje2_true_8;matematika1_false_0
+kremaZaSunce:matematika1_true_10
+slavko:matematika1_false_0
+jovana:sociologija_true_10
+elena:fizika_true_9;sociologija_true_10

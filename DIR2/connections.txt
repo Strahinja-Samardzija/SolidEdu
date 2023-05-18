@@ -1,0 +1,12 @@
+igor - toma, boris, marko
+jovana - mirka
+marko - toma, kremaZaSunce, igor, ilija
+slavica - elena, toma
+elena - slavica
+ilija - kremaZaSunce, marko
+toma - igor, marko
+boris - igor
+slavko - 
+mirka - jovana
+kremaZaSunce - marko, ilija
+drazen - 

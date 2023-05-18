@@ -1,0 +1,332 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{6c14f14a-8bdd-4e6d-baa6-052fcca8a6b6}</ProjectGuid>
+    <RootNamespace>SolidEdu</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)StringLib;$(SolutionDir)ConnectionsGraphLib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalOptions>/VERBOSE %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)StringLib;$(SolutionDir)ConnectionsGraphLib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalOptions>/VERBOSE %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)StringLib;$(SolutionDir)ConnectionsGraphLib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalOptions>/VERBOSE %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)StringLib;$(SolutionDir)ConnectionsGraphLib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalOptions>/VERBOSE %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="AcceptCourseApplicationRequestWindow.cpp" />
+    <ClCompile Include="AcceptFriendRequestsWindow.cpp" />
+    <ClCompile Include="AdministratorMenuWindow.cpp" />
+    <ClCompile Include="AllCoursesWindow.cpp" />
+    <ClCompile Include="AnswerWindow.cpp" />
+    <ClCompile Include="BasicReader.cpp" />
+    <ClCompile Include="CompletedCourseNamePrerequisite.cpp" />
+    <ClCompile Include="CompletedCoursesFileManager.cpp" />
+    <ClCompile Include="ConnectionsGraphAdapterFromLibrary.cpp" />
+    <ClCompile Include="ConnectionsManager.cpp" />
+    <ClCompile Include="Conversation.cpp" />
+    <ClCompile Include="ConversationWindow.cpp" />
+    <ClCompile Include="Course.cpp" />
+    <ClCompile Include="CourseContentsWindow.cpp" />
+    <ClCompile Include="CourseFileManager.cpp" />
+    <ClCompile Include="CoursePrerequisiteModifier.cpp" />
+    <ClCompile Include="CourseStats.cpp" />
+    <ClCompile Include="Departments.cpp" />
+    <ClCompile Include="Factory.cpp" />
+    <ClCompile Include="FeatureSelector.cpp" />
+    <ClCompile Include="FilterMessageReader.cpp" />
+    <ClCompile Include="FilterMessagesWindow.cpp" />
+    <ClCompile Include="FriendsWindow.cpp" />
+    <ClCompile Include="HardCodedExistingPrerequisiteTypes.cpp" />
+    <ClCompile Include="StatsWindow.cpp" />
+    <ClCompile Include="StudentFeatureAdapterToLibrary.cpp" />
+    <ClCompile Include="StudentFeatureExample.cpp" />
+    <ClCompile Include="SystemAppSingleton.cpp" />
+    <ClCompile Include="SystemPathsSingleton.cpp" />
+    <ClCompile Include="TeacherGradeWindow.cpp" />
+    <ClCompile Include="Inbox.cpp" />
+    <ClCompile Include="InboxWindow.cpp" />
+    <ClCompile Include="LoginWindow.cpp" />
+    <ClCompile Include="MeetPeopleWindow.cpp" />
+    <ClCompile Include="MessageReader.cpp" />
+    <ClCompile Include="MyCoursesWindow.cpp" />
+    <ClCompile Include="Notifier.cpp" />
+    <ClCompile Include="PrerequisiteTypes.cpp" />
+    <ClCompile Include="SolidEdu.cpp" />
+    <ClCompile Include="StudentDecorator.cpp" />
+    <ClCompile Include="TeacherAddOrRemovePrerequisitesWindow.cpp" />
+    <ClCompile Include="User.cpp" />
+    <ClCompile Include="UserMenuWindow.cpp" />
+    <ClCompile Include="WelcomeWindow.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ConnectionsGraphLib\ConnectionsGraphLib.vcxproj">
+      <Project>{92278f16-6337-47df-8b08-68bd0401b1c4}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\StringLib\StringLib.vcxproj">
+      <Project>{85545da0-eaee-4843-ba38-2d68bdd045b6}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AcceptCourseApplicationRequestWindow.h" />
+    <ClInclude Include="AcceptFriendRequestsWindow.h" />
+    <ClInclude Include="AddOrRemove.h" />
+    <ClInclude Include="AdministratorMenuWindow.h" />
+    <ClInclude Include="AllCoursesWindow.h" />
+    <ClInclude Include="AnswerWindow.h" />
+    <ClInclude Include="BasicReader.h" />
+    <ClInclude Include="CompletedCourseNamePrerequisite.h" />
+    <ClInclude Include="CompletedCoursesFileManager.h" />
+    <ClInclude Include="ConnectionsGraphAdapterFromLibrary.h" />
+    <ClInclude Include="ConnectionsManager.h" />
+    <ClInclude Include="Conversation.h" />
+    <ClInclude Include="ConversationWindow.h" />
+    <ClInclude Include="Course.h" />
+    <ClInclude Include="CourseAddOrRemoveAdministrator.h" />
+    <ClInclude Include="CourseContentsWindow.h" />
+    <ClInclude Include="CourseFileManager.h" />
+    <ClInclude Include="CoursePrerequisiteModifier.h" />
+    <ClInclude Include="CoursesPrerequisitesAddOrRemoveAdministrator.h" />
+    <ClInclude Include="CoursesStudentsAddOrRemoveAdministrator.h" />
+    <ClInclude Include="CourseStats.h" />
+    <ClInclude Include="CoursesTeachersAddOrRemoveAdministrator.h" />
+    <ClInclude Include="DepartmentAddOrRemoveAdministrator.h" />
+    <ClInclude Include="Departments.h" />
+    <ClInclude Include="DepartmentsCoursesAddOrRemoveAdministrator.h" />
+    <ClInclude Include="ExitWindow.h" />
+    <ClInclude Include="Factory.h" />
+    <ClInclude Include="FeatureSelector.h" />
+    <ClInclude Include="FilterMessageReader.h" />
+    <ClInclude Include="FilterMessagesWindow.h" />
+    <ClInclude Include="FriendsWindow.h" />
+    <ClInclude Include="GenericAddOrRemove.h" />
+    <ClInclude Include="GradesAddOrRemoveAdministrator.h" />
+    <ClInclude Include="ICompletedCoursesFileManager.h" />
+    <ClInclude Include="IConnectionsManager.h" />
+    <ClInclude Include="ICourseFileManager.h" />
+    <ClInclude Include="IFeatureSelector.h" />
+    <ClInclude Include="ISystemApp.h" />
+    <ClInclude Include="solid_edu_IConnectionsGraph.h" />
+    <ClInclude Include="solid_edu_IStudentFeature.h" />
+    <ClInclude Include="StatsWindow.h" />
+    <ClInclude Include="StudentFeatureAdapterToLibrary.h" />
+    <ClInclude Include="StudentFeatureExample.h" />
+    <ClInclude Include="SystemAppSingleton.h" />
+    <ClInclude Include="SystemPathsBase.h" />
+    <ClInclude Include="SystemPathsSingleton.h" />
+    <ClInclude Include="TeacherGradeWindow.h" />
+    <ClInclude Include="HardCodedExistingPrerequisiteTypes.h" />
+    <ClInclude Include="IConversation.h" />
+    <ClInclude Include="IInbox.h" />
+    <ClInclude Include="IMessageReader.h" />
+    <ClInclude Include="Inbox.h" />
+    <ClInclude Include="InboxWindow.h" />
+    <ClInclude Include="INotifier.h" />
+    <ClInclude Include="IUser.h" />
+    <ClInclude Include="IWindow.h" />
+    <ClInclude Include="LoginWindow.h" />
+    <ClInclude Include="MeetPeopleWindow.h" />
+    <ClInclude Include="MessageReader.h" />
+    <ClInclude Include="MyCoursesWindow.h" />
+    <ClInclude Include="Notifier.h" />
+    <ClInclude Include="Prerequisite.h" />
+    <ClInclude Include="PrerequisiteTypes.h" />
+    <ClInclude Include="StudentDecorator.h" />
+    <ClInclude Include="TeacherAddOrRemovePrerequisitesWindow.h" />
+    <ClInclude Include="User.h" />
+    <ClInclude Include="UserAddOrRemove.h" />
+    <ClInclude Include="UserMenuWindow.h" />
+    <ClInclude Include="UsersFriendsAddOrRemoveAdministratorWindow.h" />
+    <ClInclude Include="WelcomeWindow.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="boris_classes.txt" />
+    <Text Include="boris_notifications.txt" />
+    <Text Include="boris_requests.txt" />
+    <Text Include="connections.txt" />
+    <Text Include="courses.txt" />
+    <Text Include="courseStudents.txt" />
+    <Text Include="courseTeachers.txt" />
+    <Text Include="departments.txt" />
+    <Text Include="drazen_classes.txt" />
+    <Text Include="drazen_notifications.txt" />
+    <Text Include="drazen_requests.txt" />
+    <Text Include="elena_classes.txt" />
+    <Text Include="elena_notifications.txt" />
+    <Text Include="elena_requests.txt" />
+    <Text Include="fizika_prerequisites.txt" />
+    <Text Include="fizika_requests.txt" />
+    <Text Include="fmsi2021_prerequisites.txt" />
+    <Text Include="fmsi2021_requests.txt" />
+    <Text Include="igor_classes.txt" />
+    <Text Include="igor_notifications.txt" />
+    <Text Include="igor_requests.txt" />
+    <Text Include="ilija_classes.txt" />
+    <Text Include="ilija_notifications.txt" />
+    <Text Include="ilija_requests.txt" />
+    <Text Include="jovana_classes.txt" />
+    <Text Include="jovana_marko_.txt" />
+    <Text Include="jovana_milica_.txt" />
+    <Text Include="jovana_mirka_.txt" />
+    <Text Include="jovana_notifications.txt" />
+    <Text Include="jovana_requests.txt" />
+    <Text Include="kremaZaSunce_classes.txt" />
+    <Text Include="kremaZaSunce_marko_.txt" />
+    <Text Include="kremaZaSunce_notifications.txt" />
+    <Text Include="kremaZaSunce_requests.txt" />
+    <Text Include="marko_classes.txt" />
+    <Text Include="marko_notifications.txt" />
+    <Text Include="marko_requests.txt" />
+    <Text Include="marko_toma_.txt" />
+    <Text Include="matematika1_prerequisites.txt" />
+    <Text Include="matematika1_requests.txt" />
+    <Text Include="mirka_classes.txt" />
+    <Text Include="mirka_notifications.txt" />
+    <Text Include="mirka_requests.txt" />
+    <Text Include="osi_prerequisites.txt" />
+    <Text Include="osi_requests.txt" />
+    <Text Include="passedCourses.txt" />
+    <Text Include="programiranje2_prerequisites.txt" />
+    <Text Include="programiranje2_requests.txt" />
+    <Text Include="slavica_classes.txt" />
+    <Text Include="slavica_notifications.txt" />
+    <Text Include="slavica_requests.txt" />
+    <Text Include="slavko_classes.txt" />
+    <Text Include="slavko_notifications.txt" />
+    <Text Include="slavko_requests.txt" />
+    <Text Include="sociologija_prerequisites.txt" />
+    <Text Include="sociologija_requests.txt" />
+    <Text Include="toma_classes.txt" />
+    <Text Include="toma_notifications.txt" />
+    <Text Include="toma_requests.txt" />
+    <Text Include="user_password.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
