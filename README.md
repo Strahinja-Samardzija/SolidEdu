@@ -1,6 +1,6 @@
 # SolidEdu
 nalozi za testiranje:
-username:       password:
-milica          sifraMilica
-marko           sifraMarko
-ilija           sifraIlija
+username-password:
+milica-sifraMilica
+marko-sifraMarko
+admin-admin
